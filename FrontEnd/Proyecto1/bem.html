@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología BEM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/bem.css">
+</head>
+
+<body>
+    <!-- BLOQUE, ELEMENTO, MODIFICADOR -->
+    <div class="contenedor"> 
+
+        <div class="card"><!-- BLOQUE -->
+            <a href="#" class="card__thumbnail"> <!-- ELEMENTO -->
+                <img class="card__img" src="./img/perrito.jpg" alt="perrito"> <!-- ELEMENTO -->
+            </a>
+            <div class="card__textos">
+                <h3 class="card__titulo">
+                    <a href="#" class="card__enlace">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                </h3>
+                <p class="card__extracto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="boton">
+                    <span class="boton__texto">Ver Mas</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a> <!-- BLOQUE -->
+            </div>
+
+            <a href="#" role="button" class="boton boton--verde"> <!-- BLOQUE CON MODIFICADOR -->
+                <span class="boton__texto">Comprar</span>
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+
+        </div>
+        
+    </div>
+
+    
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

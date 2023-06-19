@@ -1,0 +1,15 @@
+@use 'variables';
+@use 'navBar';
+@use 'reset';
+// @use 'mixin';
+
+h2{
+    color: #000;
+}
+p{
+    background-color: blue;
+}
+
+body{
+    background-color: variables.$ColorPrimario;
+}

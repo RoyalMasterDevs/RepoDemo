@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#wrapper {
+    margin-left: 2.5%;
+    width: 95%;
+    border-radius: 5%;
+    background-color: rgba(17, 45, 67, 0.3);
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle, #218bef 0%, #030327 100%);
+    color: white;
+}
+
+header {}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imagenLogo {
+    max-width: 15%;
+}
+
+h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    border: inset 20px #000;
+    padding: 30px;
+    margin: 40px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.parrafos {
+    display: grid;
+    grid-template-areas: "A B"
+        "C D";
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px 200px; */
+}
+
+.item1 {
+    grid-area: A;
+    animation: perrito 5s infinite;
+    position: relative;
+
+  
+}
+
+.item2 {
+    grid-area: B;
+    animation: perrito2 8s infinite;
+    position: relative;
+
+}
+
+.item3 {
+    grid-area: D;
+}
+@keyframes perrito {
+    from {top: 0px;}
+    to {top: 200px}
+}
+@keyframes perrito2{
+    from {left: 0px;}
+    to {left: 500px;}
+}

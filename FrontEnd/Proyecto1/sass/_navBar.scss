@@ -1,0 +1,29 @@
+@use 'mixin';
+.nav{
+    background-color: steelblue;
+    color: #fff;
+}
+
+// .nav ul li {
+//     color: red;
+//     text-decoration: none;
+
+// }
+// .nav{
+//     ul{
+//         background-color: blue;
+//         li{
+//             color: #fff;
+//         }
+//     }
+// }
+// BEM
+.nav{
+    &__container{
+        // display:flex;
+        @include mixin.crear-flexbox(center);
+    }
+    &--hover{
+        background-color: green;
+    }
+}

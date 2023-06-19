@@ -1,0 +1,9 @@
+@mixin crear-flexbox($justify){
+    display:flex;
+    align-items:center;
+    justify-content: $justify;
+}
+@mixin crear-grid($align-content){
+    display: grid;
+    align-content: $align-content
+}

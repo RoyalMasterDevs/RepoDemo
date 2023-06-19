@@ -1,0 +1,36 @@
+.nav {
+  background-color: steelblue;
+  color: #fff;
+}
+
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav--hover {
+  background-color: green;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: #000;
+}
+
+p {
+  background-color: blue;
+}
+
+body {
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=styles.css.map */

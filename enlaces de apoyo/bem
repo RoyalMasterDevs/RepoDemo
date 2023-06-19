@@ -1,0 +1,27 @@
+<div class="contenedor">
+        <div class="card"> <!-- Bloque -->
+            <a href="#" class="card__thumbnail"> <!-- Elemento -->
+                <img class="card__img" src="./img/perrito.jpg" alt="">
+            </a>
+            <div class="card__textos">
+                <h3 class="card__titulo">
+                    <a class="card__enlace" href="#">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Hic officiis deleniti nobis voluptatibus expedita.</a>
+                </h3>
+                <p class="card__extracto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nemo
+                    quaerat, ex neque temporibus corrupti reiciendis in consectetur iusto aspernatur, architecto
+                    voluptatibus error doloremque. Obcaecati vitae aut quam explicabo commodi?</p>
+                <a href="#" class="boton boton--absolute"> <!-- Bloque con modificador absolute -->
+                    <span class="boton__texto">Ver Mas</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="frase">
+        <h2 class="frase__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <a href="#" role="button" class="boton boton--verde">
+            <span class="boton__texto">Comprar</span>
+            <i class="fas fa-shopping-cart"></i>
+        </a>
+    </div>
